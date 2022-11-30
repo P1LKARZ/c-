@@ -1,0 +1,25 @@
+*******************************************************************************/
+#include <iostream>
+
+using namespace std;
+int suma_dziel=0,x ;
+
+int main()
+{
+std::cout << "podaj x" << std::endl;
+std::cin >> x;
+
+for(int i=1;i<=x/2;i++)
+{
+    if(x%i==0)
+        {
+            suma_dziel=suma_dziel+i;
+        }
+
+}
+if(x==suma_dziel)
+cout<<"to liczba doskonala";
+
+else
+cout<<"to nie jest liczba doskonala";
+}
